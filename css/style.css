@@ -1,0 +1,210 @@
+
+
+
+
+/*-------------------Custom css-------------*/
+/*----Nav bar css start-------*/
+.my-custom-nav-main{
+	background-color: #edeff1!important;
+}
+.my-custom-logo-img{
+
+}
+.my-custom-nav-bar{
+	font-family: 'Roboto Slab', serif;
+	padding: 25px 0px 25px 0px;
+}
+.my-custom-nav-a{
+	font-size: 18pt;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+	color: black!important;
+}
+.my-custom-nav-a.active{
+	padding: 10px 18px 10px 18px;
+	background-color: #dd4b2b;
+	color: white!important;
+	border-radius: 20px;
+}
+/*----------Nav bar css End------------*/
+
+/*---------Hero part start--------*/
+.hero{
+	background: url(../image/banarbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white!important;
+}
+.hero h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 58pt;
+	margin: 300px 0px 50px 0px;
+}
+
+.hero p{
+	font-family: 'Roboto Slab', serif;
+	font-style: bold;
+	font-size: 30pt;
+	margin-bottom: 60px;
+}
+.hero-part1{
+}
+.hero-part1 h3{
+	font-family: 'Roboto Slab', serif;
+	font-style: bold;
+	font-size: 30pt;
+	margin: 30px 0px  20px 0px;
+}
+.hero-part1 .hero-part1-p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 15pt;
+	margin-top: 20px;
+
+}
+.my-custom-hero-part-btn{
+	font-size: 15pt;
+	color: #612316;
+	padding: 8px 20px;
+	background-color: #fff;
+	margin: 0 auto;
+	border: none;
+	border-radius: 14px;
+}
+/*----------News part start---------*/
+.my-custom-news-part{
+	background-color: #edeff1!important;
+	text-align: center;
+}
+.my-custom-news-part h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24pt;
+	font-style: bold;
+	margin: 40px 20px;
+}
+.my-custom-news-part .news-part-p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 15pt;
+	margin-bottom: 40px;
+}
+.my-custom-news-part-btn{
+	font-size: 15pt;
+	color: #5a5d64!important;
+	padding: 10px 20px;
+	background-color: #ffffff!important;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+/*------------NewsLatter start-------*/
+.newslatter-part{
+	background:url(../image/banar-2img.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.newslatter-part h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 30pt;
+	font-style: bold;
+	color: #fff;
+}
+.newslatter-part p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 15pt;
+	color: #fff;
+	margin-bottom: 50px;
+}
+.news-later-input-text{
+	width: 100%;
+	padding: 10px 30px;
+	background-color: transparent;
+	border: 2px solid #fff!important;
+	border-radius: 15px;
+	position: relative;
+}
+.news-later-input-submit{
+	padding: 7px 86px;
+    background-color: #fff;
+    color: #612316;
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-size: 15pt;
+    right: 10px;
+    bottom: 0px;
+}
+/*---------------Blanded part start--------*/
+.blandit-main-part{
+	background-color: #fff;
+	ont-family: 'Roboto Slab', serif;
+}
+.blandit-main-part h2{
+	font-size: 30pt;
+	font-style: bold;
+}
+.blandit-main-part p{
+	font-size: 15pt;
+	margin: 30px 0px 100px 0px;
+	
+}
+.blandit-main-part .img1{
+	margin-top: 100px;
+	width: 100%;
+	display: block;
+
+}
+.blandit-main-part .img2{
+	margin-bottom: 120px;
+	margin-top: 20px;
+	width: 100%;
+	display: block;
+}
+.blandit-part1-btn{
+	font-size: 15pt;
+	color: #fff!important;
+	padding: 10px 20px;
+	background-color: #dd4b2b!important;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.blandit-part2-btn{
+	font-size: 16pt;
+	color: #fff!important;
+	padding: 10px 20px;
+	background-color: #4b4e73!important;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+/*--------------List part start----------*/
+.list-main-part{
+	background-color: #d75d0e!important;
+	background-size: cover;
+}
+.list-main-part ul{
+	list-style: none;
+}
+.list-main-part li{
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+/*--------------Footer part start--------*/
+.custom-footer-main{
+	background:url(../image/banar-2img.png) no-repeat;
+	background-size: cover;
+}
+.text-white{
+	font-size: 15pt;
+	padding: 60px;
+}
+/*------------end of the custom css part----------*/
+
+/*------Media quary start-------------*/
+@media(min-width: 300px;) and (max-width: 720){
+	.my-custom-logo-img{
+		display: block;
+		margin: 0 auto;
+	}
+}
